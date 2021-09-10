@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">RecyclerAuthentication</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_description">We’re going to get older whether We’re going to get older whether we like it or not, so the only question we like it or not, so the only question is whether we get on with our lives, or desperately cling to the past.</string>
+    <string name="log_in">Log In</string>
+    <string name="remember_me">Remember me</string>
+    <string name="password">Password</string>
+    <string name="status">status</string>
+    <string name="connectionStatusOnline">online</string>
+    <string name="connectionStatusOffline">NO CONNECTION</string>
+    <string name="number">Number</string>
+    <string name="title_activity_full_element">FullElement</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

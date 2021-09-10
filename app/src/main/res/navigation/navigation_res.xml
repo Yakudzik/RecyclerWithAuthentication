@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_res"
+    app:startDestination="@id/autentificationFargment">
+
+    <fragment
+        android:id="@+id/autentificationFargment"
+        android:name="com.example.recyclerauthentication.AutentificationFragment"
+        android:label="fragment_autentification_fargment"
+        tools:layout="@layout/fragment_autentification_fargment" >
+        <action
+            android:id="@+id/action_autentificationFargment_to_contentFragment"
+            app:destination="@id/contentFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/contentFragment"
+        android:name="com.example.recyclerauthentication.ContentFragment"
+        android:label="fragment_content"
+        tools:layout="@layout/fragment_content" />
+    <fragment
+        android:id="@+id/oneElementFragment"
+        android:name="com.example.recyclerauthentication.OneElementFragment"
+        android:label="fragment_one_element"
+        tools:layout="@layout/fragment_one_element" />
+    <fragment
+        android:id="@+id/oneFullElementFragment"
+        android:name="com.example.recyclerauthentication.OneFullElementFragment"
+        android:label="fragment_one_full_element"
+        tools:layout="@layout/fragment_one_full_element" >
+        <argument
+            android:name="datatransfer"
+            app:argType="integer"
+            android:defaultValue="1" />
+    </fragment>
+</navigation>
